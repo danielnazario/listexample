@@ -1,14 +1,18 @@
 package com.example.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
 
 @Entity
 public class User {
 
     @Id
     private Long id;
+    @Column(name="NAME")
     private String name;
+  
 
     public Long getId() {
         return id;
