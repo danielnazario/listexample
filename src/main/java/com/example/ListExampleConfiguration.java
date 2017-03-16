@@ -5,14 +5,14 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/*@Configuration
+@Configuration
 public class ListExampleConfiguration {
 	@Bean
 	ServletRegistrationBean h2servletRegistration(){
-	ServletRegistrationBean registrationBean = new ServletRegistrationBean( new WebServlet());
-	registrationBean.addUrlMappings("/console/*");
-	return registrationBean;
-}
+		ServletRegistrationBean registrationBean = new ServletRegistrationBean( new WebServlet());
+		registrationBean.addUrlMappings("/console/*");
+		return registrationBean;
+	}
 
 }
-*/
+

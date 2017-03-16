@@ -2,12 +2,8 @@ package com.example.controller;
 
 
 import com.example.entity.User;
-import com.example.repository.UserRepository;
 import com.example.service.UserService;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

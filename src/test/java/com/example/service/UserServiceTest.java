@@ -21,7 +21,8 @@ public class UserServiceTest {
 
 	@Before
 	public void setup(){
-		mockList = mock(List.class);
+		List<User> mock = mock(List.class);
+		mockList = mock;
 		
 		userRepository = mock(UserRepository.class);
 		when(userRepository.findAll()).thenReturn(mockList);
